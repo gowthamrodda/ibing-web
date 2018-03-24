@@ -1,0 +1,15 @@
+<ngx-carousel
+  [inputs]="carouselOne"
+  (carouselLoad)="myfunc($event)">
+  <ngx-item NgxCarouselItem>
+    <h1>1</h1>
+  </ngx-item>
+  <ngx-item NgxCarouselItem>
+    <h1>2</h1>
+  </ngx-item>
+  <ngx-item NgxCarouselItem>
+    <h1>3</h1>
+  </ngx-item>
+  <button NgxCarouselPrev class='leftRs'>&lt;</button>
+  <button NgxCarouselNext class='rightRs'>&gt;</button>
+</ngx-carousel>
