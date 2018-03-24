@@ -1,0 +1,29 @@
+@import "../../../../styles/styles";
+
+.header {
+  background-color: beige;
+  display: flex;
+  border-radius: 10px;
+  margin: 0px 20px 20px 20px;
+
+  .logo {
+    width: 200px;
+    background-color: coral;
+    padding-left: 30px;
+    color: cornsilk;
+    border-radius: 10px;
+    font-family: "Comic Sans MS";
+  }
+  .top-nav {
+    display: flex;
+    mat-list {
+      display: inline-flex;
+    }
+    mat-list-item {
+      margin-left: 70px;
+      color: coral;
+      font-family: "Comic Sans MS";
+    }
+    width: 500px;
+  }
+}
