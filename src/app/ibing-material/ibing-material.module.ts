@@ -1,9 +1,11 @@
-import {NgModule}      from '@angular/core';
-import {CommonModule}  from '@angular/common';
-import {MatListModule} from '@angular/material';
+import {NgModule}                                        from '@angular/core';
+import {CommonModule}                                    from '@angular/common';
+import {MatCardModule, MatGridListModule, MatListModule} from '@angular/material';
 
 const components = [
-  MatListModule
+  MatListModule,
+  MatGridListModule,
+  MatCardModule
 ];
 
 @NgModule({

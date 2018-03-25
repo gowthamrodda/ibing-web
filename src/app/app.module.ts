@@ -10,13 +10,15 @@ import {AboutComponent}    from './about/about.component';
 import {HeaderComponent}   from './shared/components/header/header.component';
 import {CarouselComponent} from './carousel/carousel.component';
 import 'hammerjs';
+import { WelcomeComponent } from './shared/components/welcome/welcome.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     HeaderComponent,
-    CarouselComponent
+    CarouselComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
