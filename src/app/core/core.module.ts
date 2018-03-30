@@ -1,10 +1,16 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule}            from '@angular/core';
+import {CommonModule}        from '@angular/common';
+import {IbingMaterialModule} from '../ibing-material/ibing-material.module';
+import {HeaderComponent}     from './header/header.component';
+import {WelcomeComponent}    from './welcome/welcome.component';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    IbingMaterialModule
   ],
-  declarations: []
+  declarations: [WelcomeComponent, HeaderComponent],
+  exports: [HeaderComponent]
 })
-export class CoreModule { }
+export class CoreModule {
+}

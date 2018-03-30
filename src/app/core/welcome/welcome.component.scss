@@ -1,0 +1,22 @@
+.container {
+  // margin-top: 3.55em;
+  mat-grid-tile {
+    background: darkkhaki;
+    span {
+      font-size: 64px;
+      font-family: 'Work Sans', sans-serif;
+    }
+  }
+  .example-card {
+    max-width: 400px;
+  }
+
+  .example-header-image {
+    background-size: cover;
+  }
+  .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

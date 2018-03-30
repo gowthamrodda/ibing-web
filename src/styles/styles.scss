@@ -1,2 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Work+Sans');
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+* {
+  // Zero out differences in browsers
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  display: flex;
+  background-color: #ffffff;
+
+  &, app-root {
+    width: 100%;
+  }
+}
+
+input {
+  padding: 10px;
+}
+
+/**
+ * Fonts
+ **********************************************************************************************************************/
+body,
+div,
+input,
+p,
+textarea {
+  font-family: 'Open Sans', sans-serif;
+  color: #191919;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Work Sans', sans-serif;
+  color: #191919;
+}
+
+/**********************************************************************************************************************/
