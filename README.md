@@ -1,6 +1,9 @@
 # IbingWeb
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+The Idea of this project is develop a website with very minimal simple designs and effective presentation of content!
+
+This will be a single page application built [Angular](https://github.com/angular) Framework.
+
 
 ## Development server
 
